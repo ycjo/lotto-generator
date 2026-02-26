@@ -32,3 +32,6 @@ This project is a web-based lottery number generator. It provides users with a s
         *   Ensure the `main` container and `body` handle overflow and alignment correctly across devices.
 2.  **Visual Enhancements:**
     *   Ensure the backdrop-filter and glassmorphism effects remain performant and visually consistent on mobile devices.
+3.  **Social Media Optimization:**
+    *   Add Open Graph (OG) tags to `index.html` to provide a title, description, and thumbnail image when sharing the URL on platforms like KakaoTalk, Telegram, and Facebook.
+    *   Use a high-quality nature image as the default `og:image`.
