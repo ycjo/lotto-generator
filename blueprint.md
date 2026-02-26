@@ -22,14 +22,13 @@ This project is a web-based lottery number generator. It provides users with a s
 
 ## Current Plan
 
-1.  **Create Image Assets:**
-    *   Select 10 high-quality, license-free nature images.
-2.  **Update `style.css`**:
-    *   Add styles for the `body` to set a base background and transition properties.
-    *   Define 10 separate CSS classes, each setting a different background image from the selected collection.
-    *   To ensure readability against any background, update the `.card` component to have a semi-transparent dark background and light-colored text.
-3.  **Update `main.js`**:
-    *   Create an array containing the names of the 10 background CSS classes.
-    *   Write a function that runs on page load, which will:
-        *   Randomly select one class name from the array.
-        *   Apply the selected class to the `<body>` element.
+1.  **Mobile-First Responsive Design:**
+    *   **Refactor `lotto-generator.js` internal styles:**
+        *   Implement mobile-first styling (base styles for mobile, media queries for larger screens).
+        *   Adjust card padding, font sizes, and element scaling for different viewport widths.
+        *   Ensure the number containers (`80px`) scale down appropriately on narrow screens to prevent overflow or awkward wrapping.
+    *   **Update `style.css`:**
+        *   Set `box-sizing: border-box` globally.
+        *   Ensure the `main` container and `body` handle overflow and alignment correctly across devices.
+2.  **Visual Enhancements:**
+    *   Ensure the backdrop-filter and glassmorphism effects remain performant and visually consistent on mobile devices.

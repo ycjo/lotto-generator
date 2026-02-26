@@ -1,7 +1,12 @@
 /* General Styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,11 +14,20 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: background-image 1s ease-in-out; /* Smooth transition */
+    background-attachment: fixed;
+    transition: background-image 1s ease-in-out;
     --primary-color: #ffffff;
     --primary-glow: rgba(255, 255, 255, 0.5);
-    --shadow-color: rgba(0, 0, 0, 0.25);
-    --background-start: rgba(255, 255, 255, 0.1);
+    --shadow-color: rgba(0, 0, 0, 0.4);
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 /* Background Image Classes */
