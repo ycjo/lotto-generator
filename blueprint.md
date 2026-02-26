@@ -11,6 +11,7 @@ This project is a web-based lottery number generator. It provides users with a s
 *   **Pulsating Glow Animation:** Each number's circular border has a soft, pulsating glow that fades in and out over a 2-second interval.
 *   **Random Nature Backgrounds:** On each page load, one of ten beautiful, high-resolution nature images is randomly selected and set as the background, creating a serene and healing user experience.
 *   **Web Component-based:** The core functionality is encapsulated in a reusable Web Component.
+*   **Google AdSense Integration:** Optimized for monetization with AdSense script and `ads.txt` support.
 
 ## Design
 
